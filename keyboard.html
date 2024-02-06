@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Keyboard</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    .keyboard {
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      gap: 5px;
+      max-width: 600px;
+    }
+
+    .key {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      background-color: #ffffff;
+      border: 1px solid #cccccc;
+      cursor: pointer;
+    }
+
+    .wide-key {
+      grid-column: span 2;
+    }
+
+    .tall-key {
+      grid-row: span 2;
+    }
+  </style>
+</head>
+<body>
+
+<div class="keyboard">
+  <!-- Row 1 -->
+  <div class="key">Esc</div>
+  <div class="key">F1</div>
+  <div class="key">F2</div>
+  <div class="key">F3</div>
+  <div class="key">F4</div>
+  <div class="key">F5</div>
+  <div class="key">F6</div>
+  <div class="key">F7</div>
+  <div class="key">F8</div>
+  <div class="key">F9</div>
+  <div class="key">F10</div>
+  <div class="key">F11</div>
+  <div class="key">F12</div>
+  
+  <!-- Row 2 -->
+  <div class="key">~<br>`</div>
+  <div class="key tall-key">1</div>
+  <div class="key tall-key">2</div>
+  <div class="key tall-key">3</div>
+  <div class="key tall-key">4</div>
+  <div class="key tall-key">5</div>
+  <div class="key tall-key">6</div>
+  <div class="key tall-key">7</div>
+  <div class="key tall-key">8</div>
+  <div class="key tall-key">9</div>
+  <div class="key tall-key">0</div>
+  <div class="key">-<br>_</div>
+  <div class="key">=<br>+</div>
+  <div class="key wide-key">Backspace</div>
+
+  <!-- Add more rows and keys as needed -->
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        .main_container {
+            border: 1px solid green;
+            width: 440px;
+            margin: auto;
+            padding: 30px;
+            background-color: burlywood;
+        }
+
+        .parent_container1 {
+            /* border: 1px solid gray; */
+            width: 85%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            margin-left: 25px;
+        }
+
+        .parent_container2 {
+            /* border: 1px solid gray; */
+            width: 85%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            margin-left: 25px;
+        }
+
+        .parent_container3 {
+            /* border: 1px solid gray; */
+            width: 85%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            margin-left: 25px;
+        }
+
+        .parent_container4 {
+            /* border: 1px solid gray; */
+            width: 85%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            margin-left: 25px;
+        }
+
+        .parent_container4 select {
+            width: 177px;
+        }
+
+        .parent_container5 {
+            /* border: 1px solid gray; */
+            width: 85%;
+            margin-top: 20px;
+            margin-left: 25px;
+        }
+
+        .parent_container5 select {
+            width: 100%;
+        }
+
+        .parent_container6 {
+            /* border: 1px solid gray; */
+            width: 85%;
+            margin-top: 20px;
+            margin-left: 25px;
+        }
+
+        .parent_container6 select {
+            width: 100%;
+        }
+
+        .parent_container7 {
+            /* border: 1px solid gray; */
+            width: 86%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            margin-left: 25px;
+        }
+
+        .parent_container7 input {
+            width: 116px;
+            /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;; */
+        }
+
+        .main_container input:nth-child(n) {
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+            background-color: beige;
+        }
+
+        .main_container select:nth-child(n) {
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+            background-color: beige;
+        }
+
+        .parent_container8 {
+            /* border: 1px solid gray; */
+            width: 86%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            margin-left: 25px;
+        }
+
+        .parent_container9 {
+            /* border: 1px solid gray; */
+            width: 86%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            margin-left: 25px;
+        }
+
+        @media screen and (min-width:400px) and (max-width:700px) {
+            .main_container {
+                /* border: 1px solid green; */
+                /* width: 440px; */
+                /* margin: auto; */
+                /* padding: 30px; */
+                /* background-color: burlywood; */
+            }
+
+            .parent_container1 {
+                /* border: 1px solid gray; */
+                width: 85%;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+                margin-left: 25px;
+            }
+
+            .parent_container2 {
+                /* border: 1px solid gray; */
+                width: 85%;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+                margin-left: 25px;
+            }
+
+            .parent_container3 {
+                /* border: 1px solid gray; */
+                width: 85%;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+                margin-left: 25px;
+            }
+
+            .parent_container4 {
+                /* border: 1px solid gray; */
+                width: 85%;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+                margin-left: 25px;
+            }
+
+            .parent_container4 select {
+                width: 177px;
+            }
+
+            .parent_container5 {
+                /* border: 1px solid gray; */
+                width: 85%;
+                margin-top: 20px;
+                margin-left: 25px;
+            }
+
+            .parent_container5 select {
+                width: 100%;
+            }
+
+            .parent_container6 {
+                /* border: 1px solid gray; */
+                width: 85%;
+                margin-top: 20px;
+                margin-left: 25px;
+            }
+
+            .parent_container6 select {
+                width: 100%;
+            }
+
+            .parent_container7 {
+                /* border: 1px solid gray; */
+                width: 86%;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+                margin-left: 25px;
+            }
+
+            .parent_container7 input {
+                width: 116px;
+                /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;; */
+            }
+
+            .main_container input:nth-child(n) {
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                background-color: beige;
+            }
+
+            .main_container select:nth-child(n) {
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                background-color: beige;
+            }
+
+            .parent_container8 {
+                /* border: 1px solid gray; */
+                width: 86%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+                margin-left: 25px;
+            }
+
+            .parent_container9 {
+                /* border: 1px solid gray; */
+                width: 86%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+                margin-left: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main_container">
+        <marquee behavior="" direction="">
+            <h1>Registration Form</h1>
+        </marquee>
+        <div class="parent_container1">
+
+            <label>
+                First Name<span>*</span><br>
+                <input type="text" placeholder="Enter Your Name ">
+            </label>
+            <label>
+                Last Name<span>*</span><br>
+                <input type="text" placeholder="Enter Your Name ">
+            </label>
+        </div>
+        <div class="parent_container2">
+            <label>
+                Father's Name<span>*</span><br>
+                <input type="text" placeholder="Enter Your Father's Name ">
+            </label>
+            <label>
+                Mother's Name<span>*</span><br>
+                <input type="text" placeholder="Enter Your Mother's Name ">
+            </label>
+        </div>
+        <div class="parent_container3">
+            <label>
+                Mobile Number<span>*</span><br>
+                <input type="text" placeholder="Enter Your Mobile Number ">
+            </label>
+            <label>
+                Email Address<span>*</span><br>
+                <input type="Email" placeholder="Enter Your Email Address">
+            </label>
+        </div>
+        <div class="parent_container4">
+            <label for="">District<span>*</span><br>
+                <select>
+
+                    <option>select</option>
+                    <option>jaipur</option>
+                    <option>Jodhpur</option>
+                    <option>Jhalawar</option>
+                </select>
+            </label>
+            <label for="">State<span>*</span><br>
+                <select>
+
+                    <option>select</option>
+                    <option>Rajasthan</option>
+                    <option>Punjab</option>
+                    <option>harayana</option>
+                </select>
+            </label>
+        </div>
+        <div class="parent_container5">
+            <label for="">
+                Gender<span>*</span><br>
+                <select>
+                    <option>select</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Transgender</option>
+                </select>
+            </label>
+        </div>
+        <div class="parent_container6">
+            <label>
+                Qualification<span>*</span><br>
+                <select>
+                    <option>select</option>
+                    <option>10th</option>
+                    <option>12th</option>
+                    <option>Graguation</option>
+                </select>
+            </label>
+        </div>
+        <div class="parent_container7">
+
+            <label>
+                10th Marks<span>*</span><br>
+                <input type="text" placeholder="Enter Your 10th Marks ">
+            </label>
+            <label>
+                12th Marks<span>*</span><br>
+                <input type="text" placeholder="Enter Your 12th Marks ">
+            </label>
+            <label>
+                Graguation Marks<span>*</span><br>
+                <input type="text" placeholder="Enter Your Garguation Marks ">
+            </label>
+        </div>
+        <div class="parent_container8">
+            <button>Register</button>
+        </div>
+        <div class="parent_container9">
+            <p>Already Register <a href="http://127.0.0.1:5500/manish_login.html">Click Here TO Login</a></p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main_container{
+            border: 1px solid teal;
+            width: 70%;
+            margin: auto;
+            display: flex;
+            padding: 20px;
+        }
+        .first_container{
+            border: 1px solid red;
+            width: 20%;
+            text-align: center;
+            margin: auto;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .first_container img{
+            width: 100px;
+            height: 100px;
+        }
+        .second_container{
+            width: 20%;
+            border: 1px solid blue;
+            text-align: center;
+            margin: auto;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .second_container img{
+            width: 100px;
+            height: 100px;
+        }
+        @media screen and (min-width:200px) and (max-width:500px) {
+            .main_container{
+            
+            width: 95%;
+            display: block;
+        }
+        .first_container{
+            width: 90%;
+            text-align: left;
+           
+        }
+        .first_container img{
+            width: 90%;
+            /* height: 100px; */
+        }
+        .second_container{
+            width: 95%;
+            display: block;
+        }
+        .second_container img{
+            width: 90%;
+            /* height: 100px; */
+        } 
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="first_container">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam autem magni temporibus! Perferendis
+            cupiditate consequuntur vitae adipisci vel, odit aliquid quidem architecto odio eius aut reprehenderit,
+            tempore similique numquam, nihil nobis quis? Veritatis iste pariatur ipsam optio iusto quasi maxime,
+            distinctio ipsa itaque quas! Autem, quidem accusantium? At, blanditiis molestiae.<br>
+            <img src="https://wallpapers.com/images/featured/4k-nature-ztbad1qj8vdjqe0p.jpg" alt="nature">
+
+
+        </div>
+        <div class="second_container">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quia est hic numquam, magnam temporibus quasi
+            culpa nulla perspiciatis, suscipit at nihil exercitationem ab voluptates inventore. Ratione earum excepturi
+            deserunt sint perspiciatis vel, repudiandae a vero obcaecati corporis nulla temporibus repellendus ut
+            quibusdam natus eaque error quae. Et, fuga. Ducimus.<br>
+            <img src="https://as2.ftcdn.net/v2/jpg/05/47/97/81/1000_F_547978128_vqEEUYBr1vcAwfRAqReZXTYtyawpgLcC.jpg" alt="nature">
+        </div>
+    </div>
+</body>
+
+</html>
